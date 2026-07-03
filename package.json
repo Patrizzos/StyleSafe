@@ -1,7 +1,7 @@
 {
   "name": "stylesafe",
   "mcpName": "io.github.Patrizzos/stylesafe",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship.",
   "repository": {
     "type": "git",
