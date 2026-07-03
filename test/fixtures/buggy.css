@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  color: blue;
+  background: white;
+}
+
+.btn.primary {
+  background: blue;
+  color: white;
+}
+
+.btn {
+  color: red;
+  font-weight: bold;
+}
+
+#header .btn {
+  padding: 4px 8px !important;
+}
+
+.card-title {
+  font-size: 18px;
+  font-size: 20px;
+}
+
+.sidebar .btn.primary {
+  background: green;
+}

@@ -1,0 +1,4 @@
+node_modules/
+.vscode/mcp.json
+out.txt
+*.log

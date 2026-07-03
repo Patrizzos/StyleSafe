@@ -1,0 +1,17 @@
+name: Style Integrity
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+jobs:
+  style-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: node src/server.js --changed --fail-on-issues

@@ -1,0 +1,11 @@
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  color: blue;
+  background: white;
+}
+
+.btn.primary {
+  background: blue;
+  color: white;
+}

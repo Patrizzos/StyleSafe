@@ -1,0 +1,35 @@
+{
+  "name": "stylesafe",
+  "version": "0.1.0",
+  "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship. Built for AI coding agents and CI workflows.",
+  "main": "server.js",
+  "bin": {
+    "stylesafe": "server.js"
+  },
+  "files": [
+    "src",
+    "server.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run.js"
+  },
+  "keywords": [
+    "mcp",
+    "css",
+    "tailwind",
+    "lint",
+    "style",
+    "frontend",
+    "agent"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "git": "^0.1.5"
+  }
+}
