@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.patrizzos/stylesafe",
+  "name": "io.github.Patrizzos/stylesafe",
   "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship.",
   "repository": {
-    "url": "https://github.com/patrizzos/stylesafe",
+    "url": "https://github.com/Patrizzos/stylesafe",
     "source": "github"
   },
   "version": "0.1.2",
