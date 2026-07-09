@@ -6,12 +6,12 @@
     "url": "https://github.com/Patrizzos/stylesafe",
     "source": "github"
   },
-  "version": "0.1.8",
+  "version": "0.1.9",
   "packages": [
     {
       "registryType": "npm",
-      "identifier": "stylesafe",
-      "version": "0.1.7",
+      "identifier": "@patrizzos/stylesafe",
+      "version": "0.1.9",
       "transport": {
         "type": "stdio"
       }
