@@ -1,13 +1,13 @@
 {
-  "name": "stylesafe",
+  "name": "@Patrizzos/stylesafe",
   "mcpName": "io.github.Patrizzos/stylesafe",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship.",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Patrizzos/stylesafe.git"
   },
-  "main": "server.js",
   "bin": {
     "stylesafe": "server.js"
   },

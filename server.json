@@ -3,15 +3,15 @@
   "name": "io.github.Patrizzos/stylesafe",
   "description": "MCP server and CLI that catches CSS cascade conflicts and Tailwind utility clashes before they ship.",
   "repository": {
-    "url": "https://github.com/Patrizzos/stylesafe",
+    "url": "https://github.com/patrizzos/stylesafe",
     "source": "github"
   },
-  "version": "0.1.2",
+  "version": "0.1.4",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "stylesafe",
-      "version": "0.1.2",
+      "version": "0.1.4",
       "transport": {
         "type": "stdio"
       }
